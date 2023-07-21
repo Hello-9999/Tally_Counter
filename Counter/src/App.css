@@ -54,3 +54,25 @@ background: linear-gradient(90deg, rgba(35,35,43,1) 0%, rgba(34,35,35,1) 100%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 2px;
 }
+
+@media (max-width : 425px) {
+
+  .card{
+    width: 100%;
+  }
+  .card-footer button {
+    width: 90%;
+  }
+
+
+  
+}
+@media (min-width:425px)  and (max-width:600px){
+  .card{
+    width: 100%;
+  }
+  .card-footer button {
+    width: 90%;
+  }
+  
+}
