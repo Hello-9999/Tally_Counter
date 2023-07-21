@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.card {
+  padding: 2em;
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 5px 5px 20px 10px #626267;
+  border-radius: 15px !important;
+  background: rgb(26,26,27);
+background: linear-gradient(60deg, rgba(26,26,27,1) 0%, rgba(89,91,91,1) 100%);
+border: 2px solid black !important;
+}
+.card-title{
+  border: 1px solid ;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  /* font-size:2rem; */
+  background-color: aliceblue;
+  /* color: #0000aa; */
+  
+}
+
+.card-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-footer button{
+  width: 50%;
+  padding: 10px;
+  font-size: larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+  border-radius: 10px;
+ 
+}
+body{
+  background: rgb(35,35,43);
+background: linear-gradient(90deg, rgba(35,35,43,1) 0%, rgba(34,35,35,1) 100%);
+}
+.card h3{
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
